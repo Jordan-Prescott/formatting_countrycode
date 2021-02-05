@@ -1,0 +1,32 @@
+** FORMATTING COUNTRYCODE **
+
+This script takes a list of numbers and chops the country code away to then insert it again so the format is correct for the phone system.
+
+How the numbers are recieved:
+13123217100
+13123217101
+13123217102
+13123217103
+13123217104
+13123217105
+13123217106
+13123217107
+13123217108
+13123217100
+
+How the numbers need to be formatted:
+Here the country code in this case for America (001) has been correctly formatted.
+
++1-3123217100
++1-3123217101
++1-3123217102
++1-3123217103
++1-3123217104
++1-3123217105
++1-3123217106
++1-3123217107
++1-3123217108 
++1-3123217109
+
+The country code will change due to country and this means the length of the code will also change. For example +1 is America and +44 is the UK so the code takes
+in user input to identofy this.
